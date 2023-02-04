@@ -1,39 +1,29 @@
-// function findMissingLetter(array)
-// {
-//     let letterArr = Array.from('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz');
-//     let letterSlice = letterArr.slice(letterArr.indexOf(array[0]), letterArr.indexOf(array[array.length - 1]) + 1);
-
-//     let missingLetter = letterSlice.find((e, i) => e !== array[i]);
-
-//     return missingLetter;
+// for(let i=1;i<=100;i++){
+//     if(i%3===0 && i%5 ===0){
+//         console.log("Fizz Buzz")
+//     }else if(i%5===0){
+//         console.log('Buzz')
+//     }else if(i%3===0){
+//         console.log('Fizz')
+//     }else{
+//         console.log(i)
+//     }
 // }
+// let auto={
+//     boja: 'bela',
+//     godiste: '2018',
+//     marka:'Mercedes',
+//     model:'C200',
 
-// console.log(findMissingLetter(["a","b","c","d","f"]))
+// }
+// console.log(Object.keys(auto))
+// auto.boja ='crna'
+// console.log(auto)
+// delete auto.model
+// console.log(auto)
 
-
-// const students =[
-//     {name:"Alice",scores:[90,85,92]},
-//     {name:"Bob",scores:[75,80,85]},
-//     {name:"Charlie",scores:[90,95,85]},
-//     {name:"David",scores:[100,100,50]},
-
-// ]
-
-// function student(arr){
-//         return student.scores.filter((acc, score) => acc + score).filter(student => student.average > 90).student.name, sum / student.scores.length ;
-        
-//       };
-//  console.log( student(students) )
-
-// const students = [
-//     { name: "Alice", scores: [90, 85, 92] },
-//     { name: "Bob", scores: [75, 80, 85] },
-//     { name: "Charlie", scores: [90, 95, 85] },
-//     { name: "Jack", scores: [100, 100, 100] }
-//   ];
-  
-
-  
-//   const studentGrades = students.filter(student => student.grade >= 90);
-//   const sum = students.reduce((acc, score) => acc + score);
-//   return studentGrades;
+function isPolindrom(str){
+    return str===str.split('').reverse().join('')
+}
+const word='ana'
+console.log(isPolindrom(word))
