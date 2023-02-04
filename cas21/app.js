@@ -35,7 +35,7 @@
 //     let find=['Afrikan']
 //    return arr.filter((x)=>x !== find)
 
-// }
+// // }
 
 // console.log(gees(['MALLARD','Hook Bill','Crested','Blue Swedish','Afrikan']))
 
